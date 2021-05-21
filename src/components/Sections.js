@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
 import Steps from "./Steps";
-import StepCard from "./StepCard";
+
+import AllCards from "./AllCards";
 
 const Sections = () => {
   return (
     <Fragment>
       <Steps />
-      <StepCard />
+      <AllCards />
     </Fragment>
   );
 };

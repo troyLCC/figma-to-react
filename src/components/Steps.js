@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Step.module.css";
-import "../App.css";
 
 const Steps = () => {
   return (

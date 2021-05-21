@@ -1,3 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+
+.card_container {
+  padding: 0px 20px;
+}
+.wrapper {
+  width: 290px;
+}
+.top_margin {
+  margin-top: 120px;
+}
 .number {
-  color: #01996d;
+  color: #01996e50;
+  font-size: 5.2rem;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.step {
+  position: relative;
+}
+.text {
+  position: absolute;
+  bottom: 10px;
+  left: 43px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+img {
+  width: 290px;
+}
+.paragraph {
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+  margin-bottom: 45px;
 }

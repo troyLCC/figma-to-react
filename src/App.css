@@ -10,5 +10,5 @@ body {
   font-size: 1rem;
 }
 .container {
-  padding: 80px 185px;
+  padding: 80px 185px 0 185px;
 }
