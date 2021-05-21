@@ -1,0 +1,57 @@
+/* Nav Bar*/
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px 120px;
+}
+/* List styles */
+.nav_bar ul {
+  margin: 0;
+  padding: 0;
+}
+.nav_bar li {
+  list-style-type: none;
+  display: inline-block;
+}
+/* Logo */
+.logo {
+  display: inline-block;
+  padding: 7px 0;
+}
+.logo a {
+  text-decoration: none;
+  color: #01996d;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/* Page Nav */
+.page_nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 30px;
+}
+.page_nav a:active {
+  color: black;
+}
+.page_nav a:visited {
+  color: black;
+}
+
+/* Sign in and log out */
+.sign_in {
+  background-color: white;
+}
+.start_trail,
+.sign_in {
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+  margin: 8px 20px 0 0;
+}
+.start_trail {
+  background-color: #01996d;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
