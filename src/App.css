@@ -9,3 +9,6 @@ body {
 .App {
   font-size: 1rem;
 }
+.container {
+  padding: 80px 185px;
+}
