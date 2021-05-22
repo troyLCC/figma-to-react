@@ -1,0 +1,17 @@
+.footer {
+    background: #245852;
+    margin: 0;
+    padding: 0;
+    padding: 35px 130px;
+}
+.footer ul {
+    margin: 0;
+    list-style-type: none;
+}
+.footer li {
+    color: white;
+    padding: 15px 0;
+}
+.footer h1{
+    padding: 5px;
+}

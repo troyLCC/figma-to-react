@@ -1,7 +1,14 @@
 .story {
   background-color: #245852;
-  padding: 100px 160px;
+  padding: 130px 130px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.stroy_text {
+  padding-top: 65px; 
+
 }
 .stroy_text h2 {
   padding: 0;
@@ -9,4 +16,18 @@
   line-height: 1.4;
   color: white;
   font-size: 2rem;
+}
+.stroy_text p {
+  color: white;
+  margin: 20px 0 35px 0;
+}
+.stroy_text button{
+  border: 1px solid #01996D; 
+  background-color: #01996D; 
+  padding: 10px 25px; 
+  color: white;
+}
+.story img {
+  width: 550px;
+  height: auto;
 }
