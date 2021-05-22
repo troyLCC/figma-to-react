@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Steps from "./Steps";
+import Story from "./Story";
 
 import AllCards from "./AllCards";
 
@@ -8,6 +9,7 @@ const Sections = () => {
     <Fragment>
       <Steps />
       <AllCards />
+      <Story />
     </Fragment>
   );
 };
